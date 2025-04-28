@@ -1,0 +1,392 @@
+{
+  "timeframe": "month",
+  "commits_analyzed": 13,
+  "report": "# Development Activity Executive Summary\n\n## Overview\nDuring this period, the development team made 13 updates to the application over 25 days. These changes involved 1 team member.\n\n## Key Metrics\n- **Most Active Contributor**: carlyleong\n- **High Impact Changes**: 0\n- **Features Added**: 6\n- **Bugs Fixed**: 0\n- **Visual Updates**: 0\n\n## Activity Breakdown\n- **Other**: 6 updates (46.2%)\n- **Feature**: 6 updates (46.2%)\n- **Dependency**: 1 updates (7.7%)\n\n\n# Development Timeline\n\n## April 18, 2025\n\n### carlyleong - scoring and training flow lab 7\n- **Type**: Other - General code change\n- **Impact**: Low impact - minor adjustment or fix\n- **Risk**: Low risk - routine change that's unlikely to cause problems\n\n**Changes Made:**\n- `src/scoringflowgcp.py`: This Python file handles programming logic and automation. The change made here is a small change with significant additions to functionality.\n- `src/trainingflowgcp.py`: This Python file handles programming logic and automation. The change made here is a small change with significant additions to functionality.\n\n**Overall Impact:** This update modified 2 files with a total of 84 lines changed. This is a small change with limited scope. \n\n---\n\n## April 17, 2025\n\n### carlyleong - Add scoring flow for MLflow model inference\n- **Type**: Feature - New functionality added to the application\n- **Impact**: Low impact - minor adjustment or fix\n- **Risk**: Low risk - routine change that's unlikely to cause problems\n\n**Changes Made:**\n- `labs/lab6/src/scoringflow.py`: This Python file handles programming logic and automation. The change made here is a small change with significant additions to functionality.\n\n**Overall Impact:** This update modified 1 file with a total of 44 lines changed. This is a small change with limited scope. \n\n---\n\n### carlyleong - Add training flow with local MLflow tracking\n- **Type**: Feature - New functionality added to the application\n- **Impact**: Low impact - minor adjustment or fix\n- **Risk**: Low risk - routine change that's unlikely to cause problems\n\n**Changes Made:**\n- `labs/lab6/requirements.txt`: This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.\n- `labs/lab6/src/trainingflow.py`: This Python file handles programming logic and automation. The change made here is a small change with significant additions to functionality.\n\n**Overall Impact:** This update modified 2 files with a total of 46 lines changed. This is a small change with limited scope. It involves multiple types of code (Unknown, Python) suggesting a cross-functional update.\n\n---\n\n## April 01, 2025\n\n### carlyleong - lab 3 dvc pipeline\n- **Type**: Other - General code change\n- **Impact**: Low impact - minor adjustment or fix\n- **Risk**: Low risk - routine change that's unlikely to cause problems\n\n**Changes Made:**\n- `data/happy/2015.csv.dvc`: This Unknown file handles general purpose. The change made here is a small change with balanced code updates.\n- `dvc.lock`: This Unknown file handles general purpose. The change made here is a small change with balanced code updates.\n- `dvc.yaml`: This YAML file handles configuration and settings. The change made here is a small change with balanced code updates.\n- `params.yaml`: This YAML file handles configuration and settings. The change made here is a small change with balanced code updates.\n\n**Overall Impact:** This update modified 4 files with a total of 28 lines changed. This is a small change with limited scope. It involves multiple types of code (Unknown, YAML) suggesting a cross-functional update.\n\n---\n\n### carlyleong - dvc lock and preprocessing\n- **Type**: Other - General code change\n- **Impact**: Low impact - minor adjustment or fix\n- **Risk**: Low risk - routine change that's unlikely to cause problems\n\n**Changes Made:**\n- `data/happy/.gitignore`: This Unknown file handles general purpose. The change made here is a small change with balanced code updates.\n- `dvc.lock`: This Unknown file handles general purpose. The change made here is a small change with balanced code updates.\n- `src/preprocessing.py`: This Python file handles programming logic and automation. The change made here is a small change with balanced code updates.\n\n**Overall Impact:** This update modified 3 files with a total of 53 lines changed. This is a small change with limited scope. It involves multiple types of code (Unknown, Python) suggesting a cross-functional update.\n\n---\n\n### carlyleong - create features\n- **Type**: Feature - New functionality added to the application\n- **Impact**: Low impact - minor adjustment or fix\n- **Risk**: Low risk - routine change that's unlikely to cause problems\n\n**Changes Made:**\n- `data/.gitignore`: This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.\n- `dvc.lock`: This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.\n- `dvc.yaml`: This YAML file handles configuration and settings. The change made here is a small change with significant additions to functionality.\n- `labs/src/create_features.py`: This Python file handles programming logic and automation. The change made here is a small change with significant additions to functionality.\n\n**Overall Impact:** This update modified 4 files with a total of 73 lines changed. This is a small change with limited scope. It involves multiple types of code (Unknown, Python, YAML) suggesting a cross-functional update.\n\n---\n\n### carlyleong - revert to previous data version\n- **Type**: Dependency - Updates to external libraries or tools\n- **Impact**: Low impact - minor adjustment or fix\n- **Risk**: Low risk - routine change that's unlikely to cause problems\n\n**Changes Made:**\n- `data/adult.data.dvc`: This Unknown file handles general purpose. The change made here is a small change with balanced code updates.\n\n**Overall Impact:** This update modified 1 file with a total of 4 lines changed. This is a small change with limited scope. \n\n---\n\n### carlyleong - modify adult.data\n- **Type**: Other - General code change\n- **Impact**: Low impact - minor adjustment or fix\n- **Risk**: Low risk - routine change that's unlikely to cause problems\n\n**Changes Made:**\n- `data/adult.data.dvc`: This Unknown file handles general purpose. The change made here is a small change with balanced code updates.\n\n**Overall Impact:** This update modified 1 file with a total of 4 lines changed. This is a small change with limited scope. \n\n---\n\n### carlyleong - add adult test data\n- **Type**: Feature - New functionality added to the application\n- **Impact**: Low impact - minor adjustment or fix\n- **Risk**: Low risk - routine change that's unlikely to cause problems\n\n**Changes Made:**\n- `data/.gitignore`: This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.\n- `data/adult.test.dvc`: This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.\n\n**Overall Impact:** This update modified 2 files with a total of 7 lines changed. This is a small change with limited scope. \n\n---\n\n### carlyleong - add adult data dvc file\n- **Type**: Feature - New functionality added to the application\n- **Impact**: Low impact - minor adjustment or fix\n- **Risk**: Low risk - routine change that's unlikely to cause problems\n\n**Changes Made:**\n- `data/adult.data.dvc`: This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.\n\n**Overall Impact:** This update modified 1 file with a total of 5 lines changed. This is a small change with limited scope. \n\n---\n\n### carlyleong - add dvc\n- **Type**: Feature - New functionality added to the application\n- **Impact**: Low impact - minor adjustment or fix\n- **Risk**: Low risk - routine change that's unlikely to cause problems\n\n**Changes Made:**\n- `.dvc/.gitignore`: This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.\n- `.dvcignore`: This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.\n\n**Overall Impact:** This update modified 2 files with a total of 6 lines changed. This is a small change with limited scope. \n\n---\n\n## March 24, 2025\n\n### carlyleong - fully finished lab\n- **Type**: Other - General code change\n- **Impact**: Low impact - minor adjustment or fix\n- **Risk**: Low risk - routine change that's unlikely to cause problems\n\n**Changes Made:**\n- `labs/Lab_2_exp_tracking_local.ipynb`: This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.\n\n**Overall Impact:** This update modified 1 file with a total of 13 lines changed. This is a small change with limited scope. \n\n---\n\n### carlyleong - finished lab 2\n- **Type**: Other - General code change\n- **Impact**: Low impact - minor adjustment or fix\n- **Risk**: Low risk - routine change that's unlikely to cause problems\n\n**Changes Made:**\n- `labs/Lab_2_exp_tracking_local.ipynb`: This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.\n\n**Overall Impact:** This update modified 1 file with a total of 35 lines changed. This is a small change with limited scope. \n\n---\n\n\n\n# Technical Deep Dive\n\n## Most Changed Files\n- `dvc.lock`: 3 changes across 3 commits\n- `data/adult.data.dvc`: 3 changes across 3 commits\n- `dvc.yaml`: 2 changes across 2 commits\n- `data/.gitignore`: 2 changes across 2 commits\n- `labs/Lab_2_exp_tracking_local.ipynb`: 2 changes across 2 commits\n- `src/scoringflowgcp.py`: 1 changes across 1 commits\n- `src/trainingflowgcp.py`: 1 changes across 1 commits\n- `labs/lab6/src/scoringflow.py`: 1 changes across 1 commits\n- `labs/lab6/requirements.txt`: 1 changes across 1 commits\n- `labs/lab6/src/trainingflow.py`: 1 changes across 1 commits\n\n## Language Distribution\n- **Unknown**: 16 file changes\n- **Python**: 6 file changes\n- **YAML**: 3 file changes\n\n\n[Enhanced based on feedback: The response can be more detailed and structured.]\n[Enhanced based on feedback: The response can be more detailed and structured.]\n[Enhanced based on feedback: The response can be more detailed and structured.]",
+  "detailed_analysis": [
+    "CommitAnalysis(commit_hash='b4a8c5b91dbbe8600a5c4cffb4c415b815419bb8', author='carlyleong', date=datetime.datetime(2025, 4, 18, 15, 54, 42, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=61200))), message='scoring and training flow lab 7', files_changed=['src/scoringflowgcp.py', 'src/trainingflowgcp.py'], insertions=84, deletions=0, summary='This commit modifies 2 files, primarily affecting py components. The changes appear to scoring and training flow lab 7.', category='code_change', impact_score=0.104, risk_assessment='low')",
+    "CommitAnalysis(commit_hash='c9b7cf20cce4fe7ecb52e426a93c4f4ffc4d27cb', author='carlyleong', date=datetime.datetime(2025, 4, 17, 15, 20, 56, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=61200))), message='Add scoring flow for MLflow model inference', files_changed=['labs/lab6/src/scoringflow.py'], insertions=44, deletions=0, summary='This commit modifies 1 files, primarily affecting py components. The changes appear to add scoring flow for mlflow model inference.', category='code_change', impact_score=0.054, risk_assessment='low')",
+    "CommitAnalysis(commit_hash='892d2d02e59dfedb5a63c2974e034317d454805d', author='carlyleong', date=datetime.datetime(2025, 4, 17, 15, 19, 11, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=61200))), message='Add training flow with local MLflow tracking', files_changed=['labs/lab6/requirements.txt', 'labs/lab6/src/trainingflow.py'], insertions=46, deletions=0, summary='This commit modifies 2 files, primarily affecting txt components. The changes appear to add training flow with local mlflow tracking.', category='code_change', impact_score=0.066, risk_assessment='low')",
+    "CommitAnalysis(commit_hash='2986af0cc5535d2231b9d5fd6a5211913bf5f4eb', author='carlyleong', date=datetime.datetime(2025, 4, 1, 16, 21, 44, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=61200))), message='lab 3 dvc pipeline', files_changed=['data/happy/2015.csv.dvc', 'dvc.lock', 'dvc.yaml', 'params.yaml'], insertions=17, deletions=11, summary='This commit modifies 4 files, primarily affecting yaml components. The changes appear to lab 3 dvc pipeline.', category='code_change', impact_score=0.068, risk_assessment='low')",
+    "CommitAnalysis(commit_hash='d8876c2b46d7fa0dd370b2a52bf5a34f794df069', author='carlyleong', date=datetime.datetime(2025, 4, 1, 16, 8, 43, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=61200))), message='dvc lock and preprocessing', files_changed=['data/happy/.gitignore', 'dvc.lock', 'src/preprocessing.py'], insertions=31, deletions=22, summary='This commit modifies 3 files, primarily affecting gitignore components. The changes appear to dvc lock and preprocessing.', category='code_change', impact_score=0.083, risk_assessment='low')",
+    "CommitAnalysis(commit_hash='4ee6f6110125e659ee6726316b4b94d69a307a2b', author='carlyleong', date=datetime.datetime(2025, 4, 1, 15, 54, 1, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=61200))), message='create features', files_changed=['data/.gitignore', 'dvc.lock', 'dvc.yaml', 'labs/src/create_features.py'], insertions=73, deletions=0, summary='This commit modifies 4 files, primarily affecting gitignore components. The changes appear to create features.', category='code_change', impact_score=0.113, risk_assessment='low')",
+    "CommitAnalysis(commit_hash='de4a0297e2be52ce4e9edc778dcf068c3234a454', author='carlyleong', date=datetime.datetime(2025, 4, 1, 14, 22, 38, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=61200))), message='revert to previous data version', files_changed=['data/adult.data.dvc'], insertions=2, deletions=2, summary='This commit modifies 1 files, primarily affecting dvc components. The changes appear to revert to previous data version.', category='code_change', impact_score=0.014, risk_assessment='low')",
+    "CommitAnalysis(commit_hash='a1de7ea2f4d48aa529edb780166194d806d44701', author='carlyleong', date=datetime.datetime(2025, 4, 1, 14, 22, 5, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=61200))), message='modify adult.data', files_changed=['data/adult.data.dvc'], insertions=2, deletions=2, summary='This commit modifies 1 files, primarily affecting dvc components. The changes appear to modify adult.data.', category='code_change', impact_score=0.014, risk_assessment='low')",
+    "CommitAnalysis(commit_hash='9067c6b7069b87824b86e72f8362ac43f4458abd', author='carlyleong', date=datetime.datetime(2025, 4, 1, 14, 21, 17, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=61200))), message='add adult test data', files_changed=['data/.gitignore', 'data/adult.test.dvc'], insertions=7, deletions=0, summary='This commit modifies 2 files, primarily affecting gitignore components. The changes appear to add adult test data.', category='code_change', impact_score=0.027, risk_assessment='low')",
+    "CommitAnalysis(commit_hash='182f5442f8c29842ac1ca8de50737fd5576979b9', author='carlyleong', date=datetime.datetime(2025, 4, 1, 14, 18, 59, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=61200))), message='add adult data dvc file', files_changed=['data/adult.data.dvc'], insertions=5, deletions=0, summary='This commit modifies 1 files, primarily affecting dvc components. The changes appear to add adult data dvc file.', category='code_change', impact_score=0.015, risk_assessment='low')",
+    "CommitAnalysis(commit_hash='3e893a0ab607cb82f81d7774e989c2e542e845f6', author='carlyleong', date=datetime.datetime(2025, 4, 1, 14, 18, 25, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=61200))), message='add dvc', files_changed=['.dvc/.gitignore', '.dvcignore'], insertions=6, deletions=0, summary='This commit modifies 2 files, primarily affecting gitignore components. The changes appear to add dvc.', category='code_change', impact_score=0.026, risk_assessment='low')",
+    "CommitAnalysis(commit_hash='65eb8274ba211315c85c840571fde0f2bec99ec3', author='carlyleong', date=datetime.datetime(2025, 3, 24, 11, 45, 37, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=61200))), message='fully finished lab', files_changed=['labs/Lab_2_exp_tracking_local.ipynb'], insertions=13, deletions=0, summary='This commit modifies 1 files, primarily affecting ipynb components. The changes appear to fully finished lab.', category='code_change', impact_score=0.023, risk_assessment='low')",
+    "CommitAnalysis(commit_hash='4773cf1a6248f0984eaed332d004a246b06635ea', author='carlyleong', date=datetime.datetime(2025, 3, 24, 11, 44, 9, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=61200))), message='finished lab 2', files_changed=['labs/Lab_2_exp_tracking_local.ipynb'], insertions=34, deletions=1, summary='This commit modifies 1 files, primarily affecting ipynb components. The changes appear to finished lab 2.', category='code_change', impact_score=0.045, risk_assessment='low')"
+  ],
+  "dashboard_summary": {
+    "total_commits": 13,
+    "time_span_days": 25,
+    "active_contributors": 1,
+    "most_active_contributor": "carlyleong",
+    "commit_categories": {
+      "other": 6,
+      "feature": 6,
+      "dependency": 1
+    },
+    "impact_distribution": {
+      "high": 0,
+      "medium": 0,
+      "low": 13
+    },
+    "high_risk_commits": 0,
+    "visual_changes_count": 0,
+    "activity_timeline": [
+      {
+        "date": "2025-03-24",
+        "total_commits": 2,
+        "category_breakdown": {
+          "other": 2
+        }
+      },
+      {
+        "date": "2025-04-01",
+        "total_commits": 8,
+        "category_breakdown": {
+          "other": 3,
+          "feature": 4,
+          "dependency": 1
+        }
+      },
+      {
+        "date": "2025-04-17",
+        "total_commits": 2,
+        "category_breakdown": {
+          "feature": 2
+        }
+      },
+      {
+        "date": "2025-04-18",
+        "total_commits": 1,
+        "category_breakdown": {
+          "other": 1
+        }
+      }
+    ]
+  },
+  "non_technical_summaries": [
+    {
+      "commit_id": "b4a8c5b9",
+      "author": "carlyleong",
+      "date": "April 18, 2025 at 03:54 PM",
+      "category": "other",
+      "category_explanation": "General code change",
+      "message": "scoring and training flow lab 7",
+      "overall_impact": "This update modified 2 files with a total of 84 lines changed. This is a small change with limited scope. ",
+      "file_explanations": [
+        "CodeExplanation(file_path='src/scoringflowgcp.py', language='Python', purpose='programming logic and automation', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Python file handles programming logic and automation. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 42 lines and removed 0 lines of code. This likely adds new features or functionality.', code_summary='This Python file handles server-side application code. It contains code that contributes to the overall functionality of the application.')",
+        "CodeExplanation(file_path='src/trainingflowgcp.py', language='Python', purpose='programming logic and automation', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Python file handles programming logic and automation. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 42 lines and removed 0 lines of code. This likely adds new features or functionality.', code_summary='This Python file handles server-side application code. It contains code that contributes to the overall functionality of the application.')"
+      ],
+      "files_by_type": {
+        "Python": [
+          "CodeExplanation(file_path='src/scoringflowgcp.py', language='Python', purpose='programming logic and automation', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Python file handles programming logic and automation. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 42 lines and removed 0 lines of code. This likely adds new features or functionality.', code_summary='This Python file handles server-side application code. It contains code that contributes to the overall functionality of the application.')",
+          "CodeExplanation(file_path='src/trainingflowgcp.py', language='Python', purpose='programming logic and automation', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Python file handles programming logic and automation. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 42 lines and removed 0 lines of code. This likely adds new features or functionality.', code_summary='This Python file handles server-side application code. It contains code that contributes to the overall functionality of the application.')"
+        ]
+      },
+      "risk_level": "Low risk - routine change that's unlikely to cause problems",
+      "impact_score": "Low impact - minor adjustment or fix",
+      "visual_changes": false,
+      "insertions": 84,
+      "deletions": 0
+    },
+    {
+      "commit_id": "c9b7cf20",
+      "author": "carlyleong",
+      "date": "April 17, 2025 at 03:20 PM",
+      "category": "feature",
+      "category_explanation": "New functionality added to the application",
+      "message": "Add scoring flow for MLflow model inference",
+      "overall_impact": "This update modified 1 file with a total of 44 lines changed. This is a small change with limited scope. ",
+      "file_explanations": [
+        "CodeExplanation(file_path='labs/lab6/src/scoringflow.py', language='Python', purpose='programming logic and automation', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Python file handles programming logic and automation. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 44 lines and removed 0 lines of code. This likely adds new features or functionality.', code_summary='This Python file handles server-side application code. It contains code that contributes to the overall functionality of the application.')"
+      ],
+      "files_by_type": {
+        "Python": [
+          "CodeExplanation(file_path='labs/lab6/src/scoringflow.py', language='Python', purpose='programming logic and automation', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Python file handles programming logic and automation. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 44 lines and removed 0 lines of code. This likely adds new features or functionality.', code_summary='This Python file handles server-side application code. It contains code that contributes to the overall functionality of the application.')"
+        ]
+      },
+      "risk_level": "Low risk - routine change that's unlikely to cause problems",
+      "impact_score": "Low impact - minor adjustment or fix",
+      "visual_changes": false,
+      "insertions": 44,
+      "deletions": 0
+    },
+    {
+      "commit_id": "892d2d02",
+      "author": "carlyleong",
+      "date": "April 17, 2025 at 03:19 PM",
+      "category": "feature",
+      "category_explanation": "New functionality added to the application",
+      "message": "Add training flow with local MLflow tracking",
+      "overall_impact": "This update modified 2 files with a total of 46 lines changed. This is a small change with limited scope. It involves multiple types of code (Unknown, Python) suggesting a cross-functional update.",
+      "file_explanations": [
+        "CodeExplanation(file_path='labs/lab6/requirements.txt', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 23 lines and removed 0 lines of code. This likely adds new features or functionality.', code_summary='This Unknown file handles documentation and text content. It contains code that contributes to the overall functionality of the application.')",
+        "CodeExplanation(file_path='labs/lab6/src/trainingflow.py', language='Python', purpose='programming logic and automation', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Python file handles programming logic and automation. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 23 lines and removed 0 lines of code. This likely adds new features or functionality.', code_summary='This Python file handles server-side application code. It contains code that contributes to the overall functionality of the application.')"
+      ],
+      "files_by_type": {
+        "Unknown": [
+          "CodeExplanation(file_path='labs/lab6/requirements.txt', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 23 lines and removed 0 lines of code. This likely adds new features or functionality.', code_summary='This Unknown file handles documentation and text content. It contains code that contributes to the overall functionality of the application.')"
+        ],
+        "Python": [
+          "CodeExplanation(file_path='labs/lab6/src/trainingflow.py', language='Python', purpose='programming logic and automation', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Python file handles programming logic and automation. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 23 lines and removed 0 lines of code. This likely adds new features or functionality.', code_summary='This Python file handles server-side application code. It contains code that contributes to the overall functionality of the application.')"
+        ]
+      },
+      "risk_level": "Low risk - routine change that's unlikely to cause problems",
+      "impact_score": "Low impact - minor adjustment or fix",
+      "visual_changes": false,
+      "insertions": 46,
+      "deletions": 0
+    },
+    {
+      "commit_id": "2986af0c",
+      "author": "carlyleong",
+      "date": "April 01, 2025 at 04:21 PM",
+      "category": "other",
+      "category_explanation": "General code change",
+      "message": "lab 3 dvc pipeline",
+      "overall_impact": "This update modified 4 files with a total of 28 lines changed. This is a small change with limited scope. It involves multiple types of code (Unknown, YAML) suggesting a cross-functional update.",
+      "file_explanations": [
+        "CodeExplanation(file_path='data/happy/2015.csv.dvc', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Balanced code updates', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with balanced code updates.', changes_explanation='Added 4 lines and removed 2 lines of code. More code was added than removed, suggesting new features or expanded functionality.', code_summary='This Unknown file handles general purpose file. It contains code that contributes to the overall functionality of the application.')",
+        "CodeExplanation(file_path='dvc.lock', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Balanced code updates', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with balanced code updates.', changes_explanation='Added 4 lines and removed 2 lines of code. More code was added than removed, suggesting new features or expanded functionality.', code_summary='This Unknown file handles general purpose file. It contains code that contributes to the overall functionality of the application.')",
+        "CodeExplanation(file_path='dvc.yaml', language='YAML', purpose='configuration and settings', complexity_level='Small change', impact_description='Balanced code updates', non_technical_summary='This YAML file handles configuration and settings. The change made here is a small change with balanced code updates.', changes_explanation='Added 4 lines and removed 2 lines of code. More code was added than removed, suggesting new features or expanded functionality.', code_summary='This YAML file handles configuration or data. It contains code that contributes to the overall functionality of the application.')",
+        "CodeExplanation(file_path='params.yaml', language='YAML', purpose='configuration and settings', complexity_level='Small change', impact_description='Balanced code updates', non_technical_summary='This YAML file handles configuration and settings. The change made here is a small change with balanced code updates.', changes_explanation='Added 4 lines and removed 2 lines of code. More code was added than removed, suggesting new features or expanded functionality.', code_summary='This YAML file handles configuration or data. It contains code that contributes to the overall functionality of the application.')"
+      ],
+      "files_by_type": {
+        "Unknown": [
+          "CodeExplanation(file_path='data/happy/2015.csv.dvc', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Balanced code updates', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with balanced code updates.', changes_explanation='Added 4 lines and removed 2 lines of code. More code was added than removed, suggesting new features or expanded functionality.', code_summary='This Unknown file handles general purpose file. It contains code that contributes to the overall functionality of the application.')",
+          "CodeExplanation(file_path='dvc.lock', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Balanced code updates', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with balanced code updates.', changes_explanation='Added 4 lines and removed 2 lines of code. More code was added than removed, suggesting new features or expanded functionality.', code_summary='This Unknown file handles general purpose file. It contains code that contributes to the overall functionality of the application.')"
+        ],
+        "YAML": [
+          "CodeExplanation(file_path='dvc.yaml', language='YAML', purpose='configuration and settings', complexity_level='Small change', impact_description='Balanced code updates', non_technical_summary='This YAML file handles configuration and settings. The change made here is a small change with balanced code updates.', changes_explanation='Added 4 lines and removed 2 lines of code. More code was added than removed, suggesting new features or expanded functionality.', code_summary='This YAML file handles configuration or data. It contains code that contributes to the overall functionality of the application.')",
+          "CodeExplanation(file_path='params.yaml', language='YAML', purpose='configuration and settings', complexity_level='Small change', impact_description='Balanced code updates', non_technical_summary='This YAML file handles configuration and settings. The change made here is a small change with balanced code updates.', changes_explanation='Added 4 lines and removed 2 lines of code. More code was added than removed, suggesting new features or expanded functionality.', code_summary='This YAML file handles configuration or data. It contains code that contributes to the overall functionality of the application.')"
+        ]
+      },
+      "risk_level": "Low risk - routine change that's unlikely to cause problems",
+      "impact_score": "Low impact - minor adjustment or fix",
+      "visual_changes": false,
+      "insertions": 17,
+      "deletions": 11
+    },
+    {
+      "commit_id": "d8876c2b",
+      "author": "carlyleong",
+      "date": "April 01, 2025 at 04:08 PM",
+      "category": "other",
+      "category_explanation": "General code change",
+      "message": "dvc lock and preprocessing",
+      "overall_impact": "This update modified 3 files with a total of 53 lines changed. This is a small change with limited scope. It involves multiple types of code (Unknown, Python) suggesting a cross-functional update.",
+      "file_explanations": [
+        "CodeExplanation(file_path='data/happy/.gitignore', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Balanced code updates', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with balanced code updates.', changes_explanation='Added 10 lines and removed 7 lines of code. More code was added than removed, suggesting new features or expanded functionality.', code_summary='This Unknown file handles general purpose file. It contains code that contributes to the overall functionality of the application.')",
+        "CodeExplanation(file_path='dvc.lock', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Balanced code updates', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with balanced code updates.', changes_explanation='Added 10 lines and removed 7 lines of code. More code was added than removed, suggesting new features or expanded functionality.', code_summary='This Unknown file handles general purpose file. It contains code that contributes to the overall functionality of the application.')",
+        "CodeExplanation(file_path='src/preprocessing.py', language='Python', purpose='programming logic and automation', complexity_level='Small change', impact_description='Balanced code updates', non_technical_summary='This Python file handles programming logic and automation. The change made here is a small change with balanced code updates.', changes_explanation='Added 10 lines and removed 7 lines of code. More code was added than removed, suggesting new features or expanded functionality.', code_summary='This Python file handles server-side application code. It contains code that contributes to the overall functionality of the application.')"
+      ],
+      "files_by_type": {
+        "Unknown": [
+          "CodeExplanation(file_path='data/happy/.gitignore', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Balanced code updates', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with balanced code updates.', changes_explanation='Added 10 lines and removed 7 lines of code. More code was added than removed, suggesting new features or expanded functionality.', code_summary='This Unknown file handles general purpose file. It contains code that contributes to the overall functionality of the application.')",
+          "CodeExplanation(file_path='dvc.lock', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Balanced code updates', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with balanced code updates.', changes_explanation='Added 10 lines and removed 7 lines of code. More code was added than removed, suggesting new features or expanded functionality.', code_summary='This Unknown file handles general purpose file. It contains code that contributes to the overall functionality of the application.')"
+        ],
+        "Python": [
+          "CodeExplanation(file_path='src/preprocessing.py', language='Python', purpose='programming logic and automation', complexity_level='Small change', impact_description='Balanced code updates', non_technical_summary='This Python file handles programming logic and automation. The change made here is a small change with balanced code updates.', changes_explanation='Added 10 lines and removed 7 lines of code. More code was added than removed, suggesting new features or expanded functionality.', code_summary='This Python file handles server-side application code. It contains code that contributes to the overall functionality of the application.')"
+        ]
+      },
+      "risk_level": "Low risk - routine change that's unlikely to cause problems",
+      "impact_score": "Low impact - minor adjustment or fix",
+      "visual_changes": false,
+      "insertions": 31,
+      "deletions": 22
+    },
+    {
+      "commit_id": "4ee6f611",
+      "author": "carlyleong",
+      "date": "April 01, 2025 at 03:54 PM",
+      "category": "feature",
+      "category_explanation": "New functionality added to the application",
+      "message": "create features",
+      "overall_impact": "This update modified 4 files with a total of 73 lines changed. This is a small change with limited scope. It involves multiple types of code (Unknown, Python, YAML) suggesting a cross-functional update.",
+      "file_explanations": [
+        "CodeExplanation(file_path='data/.gitignore', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 18 lines and removed 0 lines of code. This likely adds new features or functionality.', code_summary='This Unknown file handles general purpose file. It contains code that contributes to the overall functionality of the application.')",
+        "CodeExplanation(file_path='dvc.lock', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 18 lines and removed 0 lines of code. This likely adds new features or functionality.', code_summary='This Unknown file handles general purpose file. It contains code that contributes to the overall functionality of the application.')",
+        "CodeExplanation(file_path='dvc.yaml', language='YAML', purpose='configuration and settings', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This YAML file handles configuration and settings. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 18 lines and removed 0 lines of code. This likely adds new features or functionality.', code_summary='This YAML file handles configuration or data. It contains code that contributes to the overall functionality of the application.')",
+        "CodeExplanation(file_path='labs/src/create_features.py', language='Python', purpose='programming logic and automation', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Python file handles programming logic and automation. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 18 lines and removed 0 lines of code. This likely adds new features or functionality.', code_summary='This Python file handles server-side application code. It contains code that contributes to the overall functionality of the application.')"
+      ],
+      "files_by_type": {
+        "Unknown": [
+          "CodeExplanation(file_path='data/.gitignore', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 18 lines and removed 0 lines of code. This likely adds new features or functionality.', code_summary='This Unknown file handles general purpose file. It contains code that contributes to the overall functionality of the application.')",
+          "CodeExplanation(file_path='dvc.lock', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 18 lines and removed 0 lines of code. This likely adds new features or functionality.', code_summary='This Unknown file handles general purpose file. It contains code that contributes to the overall functionality of the application.')"
+        ],
+        "YAML": [
+          "CodeExplanation(file_path='dvc.yaml', language='YAML', purpose='configuration and settings', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This YAML file handles configuration and settings. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 18 lines and removed 0 lines of code. This likely adds new features or functionality.', code_summary='This YAML file handles configuration or data. It contains code that contributes to the overall functionality of the application.')"
+        ],
+        "Python": [
+          "CodeExplanation(file_path='labs/src/create_features.py', language='Python', purpose='programming logic and automation', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Python file handles programming logic and automation. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 18 lines and removed 0 lines of code. This likely adds new features or functionality.', code_summary='This Python file handles server-side application code. It contains code that contributes to the overall functionality of the application.')"
+        ]
+      },
+      "risk_level": "Low risk - routine change that's unlikely to cause problems",
+      "impact_score": "Low impact - minor adjustment or fix",
+      "visual_changes": false,
+      "insertions": 73,
+      "deletions": 0
+    },
+    {
+      "commit_id": "de4a0297",
+      "author": "carlyleong",
+      "date": "April 01, 2025 at 02:22 PM",
+      "category": "dependency",
+      "category_explanation": "Updates to external libraries or tools",
+      "message": "revert to previous data version",
+      "overall_impact": "This update modified 1 file with a total of 4 lines changed. This is a small change with limited scope. ",
+      "file_explanations": [
+        "CodeExplanation(file_path='data/adult.data.dvc', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Balanced code updates', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with balanced code updates.', changes_explanation='Added 2 lines and removed 2 lines of code. Similar amounts of code were added and removed, suggesting code improvements or restructuring.', code_summary='This Unknown file handles general purpose file. It contains code that contributes to the overall functionality of the application.')"
+      ],
+      "files_by_type": {
+        "Unknown": [
+          "CodeExplanation(file_path='data/adult.data.dvc', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Balanced code updates', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with balanced code updates.', changes_explanation='Added 2 lines and removed 2 lines of code. Similar amounts of code were added and removed, suggesting code improvements or restructuring.', code_summary='This Unknown file handles general purpose file. It contains code that contributes to the overall functionality of the application.')"
+        ]
+      },
+      "risk_level": "Low risk - routine change that's unlikely to cause problems",
+      "impact_score": "Low impact - minor adjustment or fix",
+      "visual_changes": false,
+      "insertions": 2,
+      "deletions": 2
+    },
+    {
+      "commit_id": "a1de7ea2",
+      "author": "carlyleong",
+      "date": "April 01, 2025 at 02:22 PM",
+      "category": "other",
+      "category_explanation": "General code change",
+      "message": "modify adult.data",
+      "overall_impact": "This update modified 1 file with a total of 4 lines changed. This is a small change with limited scope. ",
+      "file_explanations": [
+        "CodeExplanation(file_path='data/adult.data.dvc', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Balanced code updates', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with balanced code updates.', changes_explanation='Added 2 lines and removed 2 lines of code. Similar amounts of code were added and removed, suggesting code improvements or restructuring.', code_summary='This Unknown file handles general purpose file. It contains code that contributes to the overall functionality of the application.')"
+      ],
+      "files_by_type": {
+        "Unknown": [
+          "CodeExplanation(file_path='data/adult.data.dvc', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Balanced code updates', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with balanced code updates.', changes_explanation='Added 2 lines and removed 2 lines of code. Similar amounts of code were added and removed, suggesting code improvements or restructuring.', code_summary='This Unknown file handles general purpose file. It contains code that contributes to the overall functionality of the application.')"
+        ]
+      },
+      "risk_level": "Low risk - routine change that's unlikely to cause problems",
+      "impact_score": "Low impact - minor adjustment or fix",
+      "visual_changes": false,
+      "insertions": 2,
+      "deletions": 2
+    },
+    {
+      "commit_id": "9067c6b7",
+      "author": "carlyleong",
+      "date": "April 01, 2025 at 02:21 PM",
+      "category": "feature",
+      "category_explanation": "New functionality added to the application",
+      "message": "add adult test data",
+      "overall_impact": "This update modified 2 files with a total of 7 lines changed. This is a small change with limited scope. ",
+      "file_explanations": [
+        "CodeExplanation(file_path='data/.gitignore', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 3 lines and removed 0 lines of code. This likely adds new features or functionality.', code_summary='This Unknown file handles general purpose file. It contains code that contributes to the overall functionality of the application.')",
+        "CodeExplanation(file_path='data/adult.test.dvc', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 3 lines and removed 0 lines of code. This likely adds new features or functionality.', code_summary='This Unknown file contains automated tests to ensure the application works correctly. It likely includes test cases and verification code.')"
+      ],
+      "files_by_type": {
+        "Unknown": [
+          "CodeExplanation(file_path='data/.gitignore', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 3 lines and removed 0 lines of code. This likely adds new features or functionality.', code_summary='This Unknown file handles general purpose file. It contains code that contributes to the overall functionality of the application.')",
+          "CodeExplanation(file_path='data/adult.test.dvc', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 3 lines and removed 0 lines of code. This likely adds new features or functionality.', code_summary='This Unknown file contains automated tests to ensure the application works correctly. It likely includes test cases and verification code.')"
+        ]
+      },
+      "risk_level": "Low risk - routine change that's unlikely to cause problems",
+      "impact_score": "Low impact - minor adjustment or fix",
+      "visual_changes": false,
+      "insertions": 7,
+      "deletions": 0
+    },
+    {
+      "commit_id": "182f5442",
+      "author": "carlyleong",
+      "date": "April 01, 2025 at 02:18 PM",
+      "category": "feature",
+      "category_explanation": "New functionality added to the application",
+      "message": "add adult data dvc file",
+      "overall_impact": "This update modified 1 file with a total of 5 lines changed. This is a small change with limited scope. ",
+      "file_explanations": [
+        "CodeExplanation(file_path='data/adult.data.dvc', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 5 lines and removed 0 lines of code. This likely adds new features or functionality.', code_summary='This Unknown file handles general purpose file. It contains code that contributes to the overall functionality of the application.')"
+      ],
+      "files_by_type": {
+        "Unknown": [
+          "CodeExplanation(file_path='data/adult.data.dvc', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 5 lines and removed 0 lines of code. This likely adds new features or functionality.', code_summary='This Unknown file handles general purpose file. It contains code that contributes to the overall functionality of the application.')"
+        ]
+      },
+      "risk_level": "Low risk - routine change that's unlikely to cause problems",
+      "impact_score": "Low impact - minor adjustment or fix",
+      "visual_changes": false,
+      "insertions": 5,
+      "deletions": 0
+    },
+    {
+      "commit_id": "3e893a0a",
+      "author": "carlyleong",
+      "date": "April 01, 2025 at 02:18 PM",
+      "category": "feature",
+      "category_explanation": "New functionality added to the application",
+      "message": "add dvc",
+      "overall_impact": "This update modified 2 files with a total of 6 lines changed. This is a small change with limited scope. ",
+      "file_explanations": [
+        "CodeExplanation(file_path='.dvc/.gitignore', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 3 lines and removed 0 lines of code. This likely adds new features or functionality.', code_summary='This Unknown file handles general purpose file. It contains code that contributes to the overall functionality of the application.')",
+        "CodeExplanation(file_path='.dvcignore', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 3 lines and removed 0 lines of code. This likely adds new features or functionality.', code_summary='This Unknown file handles general purpose file. It contains code that contributes to the overall functionality of the application.')"
+      ],
+      "files_by_type": {
+        "Unknown": [
+          "CodeExplanation(file_path='.dvc/.gitignore', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 3 lines and removed 0 lines of code. This likely adds new features or functionality.', code_summary='This Unknown file handles general purpose file. It contains code that contributes to the overall functionality of the application.')",
+          "CodeExplanation(file_path='.dvcignore', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 3 lines and removed 0 lines of code. This likely adds new features or functionality.', code_summary='This Unknown file handles general purpose file. It contains code that contributes to the overall functionality of the application.')"
+        ]
+      },
+      "risk_level": "Low risk - routine change that's unlikely to cause problems",
+      "impact_score": "Low impact - minor adjustment or fix",
+      "visual_changes": false,
+      "insertions": 6,
+      "deletions": 0
+    },
+    {
+      "commit_id": "65eb8274",
+      "author": "carlyleong",
+      "date": "March 24, 2025 at 11:45 AM",
+      "category": "other",
+      "category_explanation": "General code change",
+      "message": "fully finished lab",
+      "overall_impact": "This update modified 1 file with a total of 13 lines changed. This is a small change with limited scope. ",
+      "file_explanations": [
+        "CodeExplanation(file_path='labs/Lab_2_exp_tracking_local.ipynb', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 13 lines and removed 0 lines of code. This likely adds new features or functionality.', code_summary='This Unknown file handles general purpose file. It contains code that contributes to the overall functionality of the application.')"
+      ],
+      "files_by_type": {
+        "Unknown": [
+          "CodeExplanation(file_path='labs/Lab_2_exp_tracking_local.ipynb', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 13 lines and removed 0 lines of code. This likely adds new features or functionality.', code_summary='This Unknown file handles general purpose file. It contains code that contributes to the overall functionality of the application.')"
+        ]
+      },
+      "risk_level": "Low risk - routine change that's unlikely to cause problems",
+      "impact_score": "Low impact - minor adjustment or fix",
+      "visual_changes": false,
+      "insertions": 13,
+      "deletions": 0
+    },
+    {
+      "commit_id": "4773cf1a",
+      "author": "carlyleong",
+      "date": "March 24, 2025 at 11:44 AM",
+      "category": "other",
+      "category_explanation": "General code change",
+      "message": "finished lab 2",
+      "overall_impact": "This update modified 1 file with a total of 35 lines changed. This is a small change with limited scope. ",
+      "file_explanations": [
+        "CodeExplanation(file_path='labs/Lab_2_exp_tracking_local.ipynb', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 34 lines and removed 1 lines of code. More code was added than removed, suggesting new features or expanded functionality.', code_summary='This Unknown file handles general purpose file. It contains code that contributes to the overall functionality of the application.')"
+      ],
+      "files_by_type": {
+        "Unknown": [
+          "CodeExplanation(file_path='labs/Lab_2_exp_tracking_local.ipynb', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 34 lines and removed 1 lines of code. More code was added than removed, suggesting new features or expanded functionality.', code_summary='This Unknown file handles general purpose file. It contains code that contributes to the overall functionality of the application.')"
+        ]
+      },
+      "risk_level": "Low risk - routine change that's unlikely to cause problems",
+      "impact_score": "Low impact - minor adjustment or fix",
+      "visual_changes": false,
+      "insertions": 34,
+      "deletions": 1
+    }
+  ]
+}

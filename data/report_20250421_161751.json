@@ -1,0 +1,251 @@
+{
+  "timeframe": "week",
+  "commits_analyzed": 3,
+  "report": "# Development Activity Executive Summary\n\n## Overview\nDuring this period, the development team made 3 updates to the application over 2 days. These changes involved 1 team member.\n\n## Key Metrics\n- **Most Active Contributor**: carlyleong\n- **High Impact Changes**: 0\n- **Features Added**: 2\n- **Bugs Fixed**: 0\n- **Visual Updates**: 0\n\n## Activity Breakdown\n- **Feature**: 2 updates (66.7%)\n- **Other**: 1 updates (33.3%)\n\n\n# Development Timeline\n\n## April 18, 2025\n\n### carlyleong - scoring and training flow lab 7\n- **Type**: Other - General code change\n- **Impact**: Low impact - minor adjustment or fix\n- **Risk**: Low risk - routine change that's unlikely to cause problems\n\n**Changes Made:**\n- `src/scoringflowgcp.py`: This Python file handles server-side application code. It contains code that contributes to the overall functionality of the application.\n- `src/trainingflowgcp.py`: This Python file handles server-side application code. It contains code that contributes to the overall functionality of the application.\n\n**Overall Impact:** This update modified 2 files with a total of 84 lines changed. This is a small change with limited scope. \n\n---\n\n## April 17, 2025\n\n### carlyleong - Add scoring flow for MLflow model inference\n- **Type**: Feature - New functionality added to the application\n- **Impact**: Low impact - minor adjustment or fix\n- **Risk**: Low risk - routine change that's unlikely to cause problems\n\n**Changes Made:**\n- `labs/lab6/src/scoringflow.py`: This Python file handles server-side application code. It contains code that contributes to the overall functionality of the application.\n\n**Overall Impact:** This update modified 1 file with a total of 44 lines changed. This is a small change with limited scope. \n\n---\n\n### carlyleong - Add training flow with local MLflow tracking\n- **Type**: Feature - New functionality added to the application\n- **Impact**: Low impact - minor adjustment or fix\n- **Risk**: Low risk - routine change that's unlikely to cause problems\n\n**Changes Made:**\n- `labs/lab6/requirements.txt`: This Unknown file handles documentation and text content. It contains code that contributes to the overall functionality of the application.\n- `labs/lab6/src/trainingflow.py`: This Python file handles server-side application code. It contains code that contributes to the overall functionality of the application.\n\n**Overall Impact:** This update modified 2 files with a total of 46 lines changed. This is a small change with limited scope. It involves multiple types of code (Python, Unknown) suggesting a cross-functional update.\n\n---\n\n\n\n# Technical Deep Dive\n\n## Most Changed Files\n- `src/scoringflowgcp.py`: 1 changes across 1 commits\n- `src/trainingflowgcp.py`: 1 changes across 1 commits\n- `labs/lab6/src/scoringflow.py`: 1 changes across 1 commits\n- `labs/lab6/requirements.txt`: 1 changes across 1 commits\n- `labs/lab6/src/trainingflow.py`: 1 changes across 1 commits\n\n## Language Distribution\n- **Python**: 4 file changes\n- **Unknown**: 1 file changes\n\n\n[Enhanced based on feedback: The response can be more detailed and structured.]\n[Enhanced based on feedback: The response can be more detailed and structured.]\n[Enhanced based on feedback: The response can be more detailed and structured.]",
+  "detailed_analysis": [
+    {
+      "commit_hash": "b4a8c5b91dbbe8600a5c4cffb4c415b815419bb8",
+      "author": "carlyleong",
+      "date": "2025-04-18 15:54:42-07:00",
+      "message": "scoring and training flow lab 7",
+      "files_changed": [
+        "src/scoringflowgcp.py",
+        "src/trainingflowgcp.py"
+      ],
+      "insertions": 84,
+      "deletions": 0,
+      "summary": "This commit modifies 2 files, primarily affecting py components. The changes appear to scoring and training flow lab 7.",
+      "category": "code_change",
+      "impact_score": 0.104,
+      "risk_assessment": "low"
+    },
+    {
+      "commit_hash": "c9b7cf20cce4fe7ecb52e426a93c4f4ffc4d27cb",
+      "author": "carlyleong",
+      "date": "2025-04-17 15:20:56-07:00",
+      "message": "Add scoring flow for MLflow model inference",
+      "files_changed": [
+        "labs/lab6/src/scoringflow.py"
+      ],
+      "insertions": 44,
+      "deletions": 0,
+      "summary": "This commit modifies 1 files, primarily affecting py components. The changes appear to add scoring flow for mlflow model inference.",
+      "category": "code_change",
+      "impact_score": 0.054,
+      "risk_assessment": "low"
+    },
+    {
+      "commit_hash": "892d2d02e59dfedb5a63c2974e034317d454805d",
+      "author": "carlyleong",
+      "date": "2025-04-17 15:19:11-07:00",
+      "message": "Add training flow with local MLflow tracking",
+      "files_changed": [
+        "labs/lab6/requirements.txt",
+        "labs/lab6/src/trainingflow.py"
+      ],
+      "insertions": 46,
+      "deletions": 0,
+      "summary": "This commit modifies 2 files, primarily affecting txt components. The changes appear to add training flow with local mlflow tracking.",
+      "category": "code_change",
+      "impact_score": 0.066,
+      "risk_assessment": "low"
+    }
+  ],
+  "dashboard_summary": {
+    "total_commits": 3,
+    "time_span_days": 2,
+    "active_contributors": 1,
+    "most_active_contributor": "carlyleong",
+    "commit_categories": {
+      "other": 1,
+      "feature": 2
+    },
+    "impact_distribution": {
+      "high": 0,
+      "medium": 0,
+      "low": 3
+    },
+    "high_risk_commits": 0,
+    "visual_changes_count": 0,
+    "activity_timeline": [
+      {
+        "date": "2025-04-17",
+        "total_commits": 2,
+        "category_breakdown": {
+          "feature": 2
+        }
+      },
+      {
+        "date": "2025-04-18",
+        "total_commits": 1,
+        "category_breakdown": {
+          "other": 1
+        }
+      }
+    ]
+  },
+  "non_technical_summaries": [
+    {
+      "commit_id": "b4a8c5b9",
+      "author": "carlyleong",
+      "date": "April 18, 2025 at 03:54 PM",
+      "category": "other",
+      "category_explanation": "General code change",
+      "message": "scoring and training flow lab 7",
+      "overall_impact": "This update modified 2 files with a total of 84 lines changed. This is a small change with limited scope. ",
+      "file_explanations": [
+        {
+          "file_path": "src/scoringflowgcp.py",
+          "language": "Python",
+          "purpose": "programming logic and automation",
+          "complexity_level": "Small change",
+          "impact_description": "Significant additions to functionality",
+          "non_technical_summary": "This Python file handles programming logic and automation. The change made here is a small change with significant additions to functionality.",
+          "changes_explanation": "Added 42 lines and removed 0 lines of code. This likely adds new features or functionality.",
+          "code_summary": "This Python file handles server-side application code. It contains code that contributes to the overall functionality of the application."
+        },
+        {
+          "file_path": "src/trainingflowgcp.py",
+          "language": "Python",
+          "purpose": "programming logic and automation",
+          "complexity_level": "Small change",
+          "impact_description": "Significant additions to functionality",
+          "non_technical_summary": "This Python file handles programming logic and automation. The change made here is a small change with significant additions to functionality.",
+          "changes_explanation": "Added 42 lines and removed 0 lines of code. This likely adds new features or functionality.",
+          "code_summary": "This Python file handles server-side application code. It contains code that contributes to the overall functionality of the application."
+        }
+      ],
+      "files_by_type": {
+        "Python": [
+          {
+            "file_path": "src/scoringflowgcp.py",
+            "language": "Python",
+            "purpose": "programming logic and automation",
+            "complexity_level": "Small change",
+            "impact_description": "Significant additions to functionality",
+            "non_technical_summary": "This Python file handles programming logic and automation. The change made here is a small change with significant additions to functionality.",
+            "changes_explanation": "Added 42 lines and removed 0 lines of code. This likely adds new features or functionality.",
+            "code_summary": "This Python file handles server-side application code. It contains code that contributes to the overall functionality of the application."
+          },
+          {
+            "file_path": "src/trainingflowgcp.py",
+            "language": "Python",
+            "purpose": "programming logic and automation",
+            "complexity_level": "Small change",
+            "impact_description": "Significant additions to functionality",
+            "non_technical_summary": "This Python file handles programming logic and automation. The change made here is a small change with significant additions to functionality.",
+            "changes_explanation": "Added 42 lines and removed 0 lines of code. This likely adds new features or functionality.",
+            "code_summary": "This Python file handles server-side application code. It contains code that contributes to the overall functionality of the application."
+          }
+        ]
+      },
+      "risk_level": "Low risk - routine change that's unlikely to cause problems",
+      "impact_score": "Low impact - minor adjustment or fix",
+      "visual_changes": false,
+      "insertions": 84,
+      "deletions": 0
+    },
+    {
+      "commit_id": "c9b7cf20",
+      "author": "carlyleong",
+      "date": "April 17, 2025 at 03:20 PM",
+      "category": "feature",
+      "category_explanation": "New functionality added to the application",
+      "message": "Add scoring flow for MLflow model inference",
+      "overall_impact": "This update modified 1 file with a total of 44 lines changed. This is a small change with limited scope. ",
+      "file_explanations": [
+        {
+          "file_path": "labs/lab6/src/scoringflow.py",
+          "language": "Python",
+          "purpose": "programming logic and automation",
+          "complexity_level": "Small change",
+          "impact_description": "Significant additions to functionality",
+          "non_technical_summary": "This Python file handles programming logic and automation. The change made here is a small change with significant additions to functionality.",
+          "changes_explanation": "Added 44 lines and removed 0 lines of code. This likely adds new features or functionality.",
+          "code_summary": "This Python file handles server-side application code. It contains code that contributes to the overall functionality of the application."
+        }
+      ],
+      "files_by_type": {
+        "Python": [
+          {
+            "file_path": "labs/lab6/src/scoringflow.py",
+            "language": "Python",
+            "purpose": "programming logic and automation",
+            "complexity_level": "Small change",
+            "impact_description": "Significant additions to functionality",
+            "non_technical_summary": "This Python file handles programming logic and automation. The change made here is a small change with significant additions to functionality.",
+            "changes_explanation": "Added 44 lines and removed 0 lines of code. This likely adds new features or functionality.",
+            "code_summary": "This Python file handles server-side application code. It contains code that contributes to the overall functionality of the application."
+          }
+        ]
+      },
+      "risk_level": "Low risk - routine change that's unlikely to cause problems",
+      "impact_score": "Low impact - minor adjustment or fix",
+      "visual_changes": false,
+      "insertions": 44,
+      "deletions": 0
+    },
+    {
+      "commit_id": "892d2d02",
+      "author": "carlyleong",
+      "date": "April 17, 2025 at 03:19 PM",
+      "category": "feature",
+      "category_explanation": "New functionality added to the application",
+      "message": "Add training flow with local MLflow tracking",
+      "overall_impact": "This update modified 2 files with a total of 46 lines changed. This is a small change with limited scope. It involves multiple types of code (Python, Unknown) suggesting a cross-functional update.",
+      "file_explanations": [
+        {
+          "file_path": "labs/lab6/requirements.txt",
+          "language": "Unknown",
+          "purpose": "general purpose",
+          "complexity_level": "Small change",
+          "impact_description": "Significant additions to functionality",
+          "non_technical_summary": "This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.",
+          "changes_explanation": "Added 23 lines and removed 0 lines of code. This likely adds new features or functionality.",
+          "code_summary": "This Unknown file handles documentation and text content. It contains code that contributes to the overall functionality of the application."
+        },
+        {
+          "file_path": "labs/lab6/src/trainingflow.py",
+          "language": "Python",
+          "purpose": "programming logic and automation",
+          "complexity_level": "Small change",
+          "impact_description": "Significant additions to functionality",
+          "non_technical_summary": "This Python file handles programming logic and automation. The change made here is a small change with significant additions to functionality.",
+          "changes_explanation": "Added 23 lines and removed 0 lines of code. This likely adds new features or functionality.",
+          "code_summary": "This Python file handles server-side application code. It contains code that contributes to the overall functionality of the application."
+        }
+      ],
+      "files_by_type": {
+        "Unknown": [
+          {
+            "file_path": "labs/lab6/requirements.txt",
+            "language": "Unknown",
+            "purpose": "general purpose",
+            "complexity_level": "Small change",
+            "impact_description": "Significant additions to functionality",
+            "non_technical_summary": "This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.",
+            "changes_explanation": "Added 23 lines and removed 0 lines of code. This likely adds new features or functionality.",
+            "code_summary": "This Unknown file handles documentation and text content. It contains code that contributes to the overall functionality of the application."
+          }
+        ],
+        "Python": [
+          {
+            "file_path": "labs/lab6/src/trainingflow.py",
+            "language": "Python",
+            "purpose": "programming logic and automation",
+            "complexity_level": "Small change",
+            "impact_description": "Significant additions to functionality",
+            "non_technical_summary": "This Python file handles programming logic and automation. The change made here is a small change with significant additions to functionality.",
+            "changes_explanation": "Added 23 lines and removed 0 lines of code. This likely adds new features or functionality.",
+            "code_summary": "This Python file handles server-side application code. It contains code that contributes to the overall functionality of the application."
+          }
+        ]
+      },
+      "risk_level": "Low risk - routine change that's unlikely to cause problems",
+      "impact_score": "Low impact - minor adjustment or fix",
+      "visual_changes": false,
+      "insertions": 46,
+      "deletions": 0
+    }
+  ]
+}

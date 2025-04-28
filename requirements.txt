@@ -1,0 +1,10 @@
+flask==2.3.3
+flask-cors==4.0.0
+gitpython==3.1.37
+anthropic==0.18.1
+transformers==4.33.3
+torch==2.0.1
+numpy==1.24.3
+pandas==2.0.3
+sentence-transformers==2.2.2
+faiss-cpu==1.7.4

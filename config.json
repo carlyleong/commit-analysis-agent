@@ -1,0 +1,6 @@
+{
+  "model_name": "claude-3-opus-20240229",
+  "storage_path": "./data",
+  "log_level": "INFO",
+  "max_optimization_iterations": 3
+}

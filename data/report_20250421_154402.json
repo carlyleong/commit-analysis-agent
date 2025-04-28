@@ -1,0 +1,185 @@
+{
+  "timeframe": "week",
+  "commits_analyzed": 7,
+  "report": "# Development Activity Executive Summary\n\n## Overview\nDuring this period, the development team made 7 updates to the application over 0 days. These changes involved 1 team member.\n\n## Key Metrics\n- **Most Active Contributor**: carlyleong\n- **High Impact Changes**: 0\n- **Features Added**: 5\n- **Bugs Fixed**: 0\n- **Visual Updates**: 0\n\n## Activity Breakdown\n- **Feature**: 5 updates (71.4%)\n- **Documentation**: 1 updates (14.3%)\n- **Other**: 1 updates (14.3%)\n\n\n# Development Timeline\n\n## April 21, 2025\n\n### carlyleong - Add test file 3\n- **Type**: Feature - New functionality added to the application\n- **Impact**: Low impact - minor adjustment or fix\n- **Risk**: Low risk - routine change that's unlikely to cause problems\n\n**Changes Made:**\n- `test3.txt`: This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.\n\n**Overall Impact:** This update modified 1 file with a total of 1 lines changed. This is a small change with limited scope. \n\n---\n\n### carlyleong - Update README with more content\n- **Type**: Documentation - Updates to help text or instructions\n- **Impact**: Low impact - minor adjustment or fix\n- **Risk**: Low risk - routine change that's unlikely to cause problems\n\n**Changes Made:**\n- `README.md`: This Markdown file handles documentation and readable text. The change made here is a small change with significant additions to functionality.\n\n**Overall Impact:** This update modified 1 file with a total of 1 lines changed. This is a small change with limited scope. \n\n---\n\n### carlyleong - Add package.json configuration\n- **Type**: Feature - New functionality added to the application\n- **Impact**: Low impact - minor adjustment or fix\n- **Risk**: Low risk - routine change that's unlikely to cause problems\n\n**Changes Made:**\n- `package.json`: This JSON file handles data storage and configuration. The change made here is a small change with significant additions to functionality.\n\n**Overall Impact:** This update modified 1 file with a total of 1 lines changed. This is a small change with limited scope. \n\n---\n\n### carlyleong - Add source directory\n- **Type**: Feature - New functionality added to the application\n- **Impact**: Low impact - minor adjustment or fix\n- **Risk**: Low risk - routine change that's unlikely to cause problems\n\n**Changes Made:**\n- `src/index.js`: This JavaScript file handles website interactivity and user experience. The change made here is a small change with significant additions to functionality.\n\n**Overall Impact:** This update modified 1 file with a total of 1 lines changed. This is a small change with limited scope. \n\n---\n\n### carlyleong - Add test file 2\n- **Type**: Feature - New functionality added to the application\n- **Impact**: Low impact - minor adjustment or fix\n- **Risk**: Low risk - routine change that's unlikely to cause problems\n\n**Changes Made:**\n- `test2.txt`: This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.\n\n**Overall Impact:** This update modified 1 file with a total of 1 lines changed. This is a small change with limited scope. \n\n---\n\n### carlyleong - Add test file 1\n- **Type**: Feature - New functionality added to the application\n- **Impact**: Low impact - minor adjustment or fix\n- **Risk**: Low risk - routine change that's unlikely to cause problems\n\n**Changes Made:**\n- `test1.txt`: This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.\n\n**Overall Impact:** This update modified 1 file with a total of 1 lines changed. This is a small change with limited scope. \n\n---\n\n### carlyleong - Initial commit\n- **Type**: Other - General code change\n- **Impact**: Low impact - minor adjustment or fix\n- **Risk**: Low risk - routine change that's unlikely to cause problems\n\n**Changes Made:**\n- `README.md`: This Markdown file handles documentation and readable text. The change made here is a small change with significant additions to functionality.\n\n**Overall Impact:** This update modified 1 file with a total of 1 lines changed. This is a small change with limited scope. \n\n---\n\n\n\n# Technical Deep Dive\n\n## Most Changed Files\n- `README.md`: 2 changes across 2 commits\n- `test3.txt`: 1 changes across 1 commits\n- `package.json`: 1 changes across 1 commits\n- `src/index.js`: 1 changes across 1 commits\n- `test2.txt`: 1 changes across 1 commits\n- `test1.txt`: 1 changes across 1 commits\n\n## Language Distribution\n- **Unknown**: 3 file changes\n- **Markdown**: 2 file changes\n- **JSON**: 1 file changes\n- **JavaScript**: 1 file changes\n\n\n[Enhanced based on feedback: The response can be more detailed and structured.]\n[Enhanced based on feedback: The response can be more detailed and structured.]\n[Enhanced based on feedback: The response can be more detailed and structured.]",
+  "detailed_analysis": [
+    "CommitAnalysis(commit_hash='5b599a791f83d74118387b6ce4b65fba19cf15be', author='carlyleong', date=datetime.datetime(2025, 4, 21, 15, 25, 18, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=61200))), message='Add test file 3', files_changed=['test3.txt'], insertions=1, deletions=0, summary='This commit modifies 1 files, primarily affecting txt components. The changes appear to add test file 3.', category='code_change', impact_score=0.011, risk_assessment='low')",
+    "CommitAnalysis(commit_hash='0bed25a1f6fd768490ea402f31abd0f4549ab5d0', author='carlyleong', date=datetime.datetime(2025, 4, 21, 15, 25, 18, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=61200))), message='Update README with more content', files_changed=['README.md'], insertions=1, deletions=0, summary='This commit modifies 1 files, primarily affecting md components. The changes appear to update readme with more content.', category='code_change', impact_score=0.011, risk_assessment='low')",
+    "CommitAnalysis(commit_hash='e304c5cf65359b46810185c3f3c265444da00a91', author='carlyleong', date=datetime.datetime(2025, 4, 21, 15, 25, 18, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=61200))), message='Add package.json configuration', files_changed=['package.json'], insertions=1, deletions=0, summary='This commit modifies 1 files, primarily affecting json components. The changes appear to add package.json configuration.', category='code_change', impact_score=0.011, risk_assessment='low')",
+    "CommitAnalysis(commit_hash='941e52f615b649fcf18bfefb0b4ad712bec1ecca', author='carlyleong', date=datetime.datetime(2025, 4, 21, 15, 25, 18, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=61200))), message='Add source directory', files_changed=['src/index.js'], insertions=1, deletions=0, summary='This commit modifies 1 files, primarily affecting js components. The changes appear to add source directory.', category='code_change', impact_score=0.011, risk_assessment='low')",
+    "CommitAnalysis(commit_hash='c8fe619bc33c776a9d6534741d4a36dbd9043b78', author='carlyleong', date=datetime.datetime(2025, 4, 21, 15, 17, 40, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=61200))), message='Add test file 2', files_changed=['test2.txt'], insertions=1, deletions=0, summary='This commit modifies 1 files, primarily affecting txt components. The changes appear to add test file 2.', category='code_change', impact_score=0.011, risk_assessment='low')",
+    "CommitAnalysis(commit_hash='47da38f0c60b9985b5d6aa188552684c7b93d61c', author='carlyleong', date=datetime.datetime(2025, 4, 21, 15, 17, 40, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=61200))), message='Add test file 1', files_changed=['test1.txt'], insertions=1, deletions=0, summary='This commit modifies 1 files, primarily affecting txt components. The changes appear to add test file 1.', category='code_change', impact_score=0.011, risk_assessment='low')",
+    "CommitAnalysis(commit_hash='82cb8e2aa470bb16aa2d10ce3e51e84d6bf6502f', author='carlyleong', date=datetime.datetime(2025, 4, 21, 15, 17, 32, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=61200))), message='Initial commit', files_changed=['README.md'], insertions=1, deletions=0, summary='This commit modifies 1 files, primarily affecting md components. The changes appear to initial commit.', category='code_change', impact_score=0.011, risk_assessment='low')"
+  ],
+  "dashboard_summary": {
+    "total_commits": 7,
+    "time_span_days": 0,
+    "active_contributors": 1,
+    "most_active_contributor": "carlyleong",
+    "commit_categories": {
+      "feature": 5,
+      "documentation": 1,
+      "other": 1
+    },
+    "impact_distribution": {
+      "high": 0,
+      "medium": 0,
+      "low": 7
+    },
+    "high_risk_commits": 0,
+    "visual_changes_count": 0,
+    "activity_timeline": [
+      {
+        "date": "2025-04-21",
+        "total_commits": 7,
+        "category_breakdown": {
+          "feature": 5,
+          "documentation": 1,
+          "other": 1
+        }
+      }
+    ]
+  },
+  "non_technical_summaries": [
+    {
+      "commit_id": "5b599a79",
+      "author": "carlyleong",
+      "date": "April 21, 2025 at 03:25 PM",
+      "category": "feature",
+      "category_explanation": "New functionality added to the application",
+      "message": "Add test file 3",
+      "overall_impact": "This update modified 1 file with a total of 1 lines changed. This is a small change with limited scope. ",
+      "file_explanations": [
+        "CodeExplanation(file_path='test3.txt', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 1 lines and removed 0 lines of code. This likely adds new features or functionality.')"
+      ],
+      "files_by_type": {
+        "Unknown": [
+          "CodeExplanation(file_path='test3.txt', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 1 lines and removed 0 lines of code. This likely adds new features or functionality.')"
+        ]
+      },
+      "risk_level": "Low risk - routine change that's unlikely to cause problems",
+      "impact_score": "Low impact - minor adjustment or fix",
+      "visual_changes": false
+    },
+    {
+      "commit_id": "0bed25a1",
+      "author": "carlyleong",
+      "date": "April 21, 2025 at 03:25 PM",
+      "category": "documentation",
+      "category_explanation": "Updates to help text or instructions",
+      "message": "Update README with more content",
+      "overall_impact": "This update modified 1 file with a total of 1 lines changed. This is a small change with limited scope. ",
+      "file_explanations": [
+        "CodeExplanation(file_path='README.md', language='Markdown', purpose='documentation and readable text', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Markdown file handles documentation and readable text. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 1 lines and removed 0 lines of code. This likely adds new features or functionality.')"
+      ],
+      "files_by_type": {
+        "Markdown": [
+          "CodeExplanation(file_path='README.md', language='Markdown', purpose='documentation and readable text', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Markdown file handles documentation and readable text. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 1 lines and removed 0 lines of code. This likely adds new features or functionality.')"
+        ]
+      },
+      "risk_level": "Low risk - routine change that's unlikely to cause problems",
+      "impact_score": "Low impact - minor adjustment or fix",
+      "visual_changes": false
+    },
+    {
+      "commit_id": "e304c5cf",
+      "author": "carlyleong",
+      "date": "April 21, 2025 at 03:25 PM",
+      "category": "feature",
+      "category_explanation": "New functionality added to the application",
+      "message": "Add package.json configuration",
+      "overall_impact": "This update modified 1 file with a total of 1 lines changed. This is a small change with limited scope. ",
+      "file_explanations": [
+        "CodeExplanation(file_path='package.json', language='JSON', purpose='data storage and configuration', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This JSON file handles data storage and configuration. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 1 lines and removed 0 lines of code. This likely adds new features or functionality.')"
+      ],
+      "files_by_type": {
+        "JSON": [
+          "CodeExplanation(file_path='package.json', language='JSON', purpose='data storage and configuration', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This JSON file handles data storage and configuration. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 1 lines and removed 0 lines of code. This likely adds new features or functionality.')"
+        ]
+      },
+      "risk_level": "Low risk - routine change that's unlikely to cause problems",
+      "impact_score": "Low impact - minor adjustment or fix",
+      "visual_changes": false
+    },
+    {
+      "commit_id": "941e52f6",
+      "author": "carlyleong",
+      "date": "April 21, 2025 at 03:25 PM",
+      "category": "feature",
+      "category_explanation": "New functionality added to the application",
+      "message": "Add source directory",
+      "overall_impact": "This update modified 1 file with a total of 1 lines changed. This is a small change with limited scope. ",
+      "file_explanations": [
+        "CodeExplanation(file_path='src/index.js', language='JavaScript', purpose='website interactivity and user experience', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This JavaScript file handles website interactivity and user experience. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 1 lines and removed 0 lines of code. This likely adds new features or functionality.')"
+      ],
+      "files_by_type": {
+        "JavaScript": [
+          "CodeExplanation(file_path='src/index.js', language='JavaScript', purpose='website interactivity and user experience', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This JavaScript file handles website interactivity and user experience. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 1 lines and removed 0 lines of code. This likely adds new features or functionality.')"
+        ]
+      },
+      "risk_level": "Low risk - routine change that's unlikely to cause problems",
+      "impact_score": "Low impact - minor adjustment or fix",
+      "visual_changes": false
+    },
+    {
+      "commit_id": "c8fe619b",
+      "author": "carlyleong",
+      "date": "April 21, 2025 at 03:17 PM",
+      "category": "feature",
+      "category_explanation": "New functionality added to the application",
+      "message": "Add test file 2",
+      "overall_impact": "This update modified 1 file with a total of 1 lines changed. This is a small change with limited scope. ",
+      "file_explanations": [
+        "CodeExplanation(file_path='test2.txt', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 1 lines and removed 0 lines of code. This likely adds new features or functionality.')"
+      ],
+      "files_by_type": {
+        "Unknown": [
+          "CodeExplanation(file_path='test2.txt', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 1 lines and removed 0 lines of code. This likely adds new features or functionality.')"
+        ]
+      },
+      "risk_level": "Low risk - routine change that's unlikely to cause problems",
+      "impact_score": "Low impact - minor adjustment or fix",
+      "visual_changes": false
+    },
+    {
+      "commit_id": "47da38f0",
+      "author": "carlyleong",
+      "date": "April 21, 2025 at 03:17 PM",
+      "category": "feature",
+      "category_explanation": "New functionality added to the application",
+      "message": "Add test file 1",
+      "overall_impact": "This update modified 1 file with a total of 1 lines changed. This is a small change with limited scope. ",
+      "file_explanations": [
+        "CodeExplanation(file_path='test1.txt', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 1 lines and removed 0 lines of code. This likely adds new features or functionality.')"
+      ],
+      "files_by_type": {
+        "Unknown": [
+          "CodeExplanation(file_path='test1.txt', language='Unknown', purpose='general purpose', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Unknown file handles general purpose. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 1 lines and removed 0 lines of code. This likely adds new features or functionality.')"
+        ]
+      },
+      "risk_level": "Low risk - routine change that's unlikely to cause problems",
+      "impact_score": "Low impact - minor adjustment or fix",
+      "visual_changes": false
+    },
+    {
+      "commit_id": "82cb8e2a",
+      "author": "carlyleong",
+      "date": "April 21, 2025 at 03:17 PM",
+      "category": "other",
+      "category_explanation": "General code change",
+      "message": "Initial commit",
+      "overall_impact": "This update modified 1 file with a total of 1 lines changed. This is a small change with limited scope. ",
+      "file_explanations": [
+        "CodeExplanation(file_path='README.md', language='Markdown', purpose='documentation and readable text', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Markdown file handles documentation and readable text. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 1 lines and removed 0 lines of code. This likely adds new features or functionality.')"
+      ],
+      "files_by_type": {
+        "Markdown": [
+          "CodeExplanation(file_path='README.md', language='Markdown', purpose='documentation and readable text', complexity_level='Small change', impact_description='Significant additions to functionality', non_technical_summary='This Markdown file handles documentation and readable text. The change made here is a small change with significant additions to functionality.', changes_explanation='Added 1 lines and removed 0 lines of code. This likely adds new features or functionality.')"
+        ]
+      },
+      "risk_level": "Low risk - routine change that's unlikely to cause problems",
+      "impact_score": "Low impact - minor adjustment or fix",
+      "visual_changes": false
+    }
+  ]
+}

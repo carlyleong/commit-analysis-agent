@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commit Analysis Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.0.2/marked.min.js"></script>
+    <style>
+        .tab-button.active {
+            border-bottom: 2px solid #3b82f6;
+            color: #3b82f6;
+        }
+        .prose {
+            max-width: none;
+        }
+        .prose h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        .prose h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+        .prose ul {
+            list-style-type: disc;
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .prose li {
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto px-4 py-8">
+        <header class="mb-8">
+            <h1 class="text-3xl font-bold text-gray-800">Commit Analysis Dashboard</h1>
+            <p class="text-gray-600">Advanced code repository analysis using AI agents</p>
+        </header>
+        
+        <!-- Analysis Controls -->
+        <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+            <h2 class="text-xl font-semibold mb-4">New Analysis</h2>
+            <div class="flex gap-4 mb-4">
+                <input type="text" id="repoPath" placeholder="Repository Path" 
+                       class="flex-1 p-2 border rounded" value="/Users/carlyleong/Desktop/test-repo">
+                <select id="timeframe" class="p-2 border rounded">
+                    <option value="week">Last Week</option>
+                    <option value="month">Last Month</option>
+                    <option value="custom">Custom Range</option>
+                </select>
+                <button onclick="runAnalysis()" 
+                        class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                    Run Analysis
+                </button>
+            </div>
+            <div id="filterControls" class="flex gap-4"></div>
+        </div>
+        
+        <!-- Recent Reports -->
+        <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+            <h2 class="text-xl font-semibold mb-4">Recent Reports</h2>
+            <div id="recentReports" class="grid gap-4">
+                <!-- Reports will be loaded here -->
+            </div>
+        </div>
+        
+        <!-- Detailed Report View -->
+        <div id="reportView" class="bg-white rounded-lg shadow-md p-6 mb-8 hidden">
+            <div class="flex justify-between items-center mb-4">
+                <h2 class="text-xl font-semibold">Analysis Report</h2>
+                <button onclick="closeReport()" class="text-gray-500 hover:text-gray-700">
+                    Close
+                </button>
+            </div>
+            <div id="reportContent" class="prose max-w-none">
+                <!-- Report content will be displayed here -->
+            </div>
+        </div>
+        
+        <!-- Charts -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h3 class="text-lg font-semibold mb-4">Commit Activity</h3>
+                <canvas id="commitChart"></canvas>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h3 class="text-lg font-semibold mb-4">Impact Analysis</h3>
+                <canvas id="impactChart"></canvas>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h3 class="text-lg font-semibold mb-4">Risk Distribution</h3>
+                <canvas id="riskChart"></canvas>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h3 class="text-lg font-semibold mb-4">Category Trends</h3>
+                <canvas id="categoryTrendChart"></canvas>
+            </div>
+        </div>
+    </div>
+    
+    <script src="dashboard.js"></script>
+    <script src="enhanced_dashboard.js"></script>
+</body>
+</html>
